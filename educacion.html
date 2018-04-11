@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Juan Diego Tonguino">
+    <meta name="description" content="Hoja de vida Juan Diego Tonguino">
+    <meta name="keywords" content="hoja vida juan diego tonguino curriculum">
+    <title>Curriculum Vitae</title>
+</head>
+<body>
+    <header>
+        <svg height="100" width="200">
+            <image xlink:href="images/logo.svg" height="100" width="200"></image>
+        </svg>
+        <h1>Hoja de Vida</h1>
+        <h2>Juan Diego Tonguino</h2>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="educacion.html">Educacion</a></li>
+            <li><a href="experiencia.html">Experiencia</a></li>
+        </ul>
+    </nav>
+    <section>
+        <article>
+            <h3>Educacion</h3>
+            <table border="1" cellpadding="10" cellspasing="0">
+                <thead>
+                    <tr>
+                        <th>Año</th>
+                        <th>Instucion</th>
+                        <th>Lugar</th>
+                        <th>Cumplio</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2011</td>
+                        <td>Confamiliar</td>
+                        <td>Pasto</td>
+                        <td>Si</td>
+                    </tr>
+                    <tr>
+                        <td>2016</td>
+                        <td>Universidad Mariana</td>
+                        <td>Pasto</td>
+                        <td>Si</td>
+                    </tr>
+                </tbody>
+            </table>
+        </article>
+        <hr>
+        <article>
+            <h3>Agregar Educacion</h3>
+            <form>
+                <label for="anio"><strong>Año</strong></label>
+                <select name="anio" id="anio">
+                    <option value="2018">2018</option>
+                    <option value="2017">2017</option>
+                    <option value="2016">2016</option>
+                    <option value="2015">2015</option>
+                    <option value="2014">2014</option>
+                    <option value="2013">2013</option>
+                </select>
+                <br>
+                <br>
+                <label for="instiucion"><strong>Institución</strong></label>
+                <input type="text" name="instiucion" id="instiucion">
+                <br>
+                <br>
+                <label for="lugar"><strong>Lugar</strong></label>
+                <textarea name="lugar" id="lugar" cols="30" rows="10"></textarea>
+                <br>
+                <br>
+                <label for="cumplio"><strong>¿Cumplio?</strong></label>
+                <input type="radio" name="cumplio"><label for="cumplio">Si</label>
+                <input type="radio" name="cumplio"><label for="cumplio">No</label>
+                <br>
+                <br>
+                <input type="submit" text="enviar">
+            </form>
+        </article>
+    </section>
+    <footer>
+        <p>&#64; Derechos Reservados</p>
+        <ul>
+            <li><strong>Email:</strong> juan.tonguino@gmail.com</li>
+            <li><strong>Telefono:</strong> 3137154902</li>
+        </ul>        
+    </footer>
+</body>
+</html>
